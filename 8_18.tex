@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+%当前的生命科学技术已经使得我们可以解析人类的遗传密码——基因序列。人与人之间基因序列的差异，即基因变异，影响着每个人罹患代谢综合疾病的风险高低，也影响着不同非遗传因素在每个人身上的具体作用效果。这也是为何代谢综合征在具有血缘关系的亲属之间有较高的发病关联的原因。此外，对人体生理运行动态特征，如基因的表达、各类小分子含量乃至于与人类紧密关联的微生物菌群的变化等，目前亦可以定量测量，从而实现了对人体当前运行状态动态监控。另一方面，各类自然和社会环境因素、生活方式等因素会对这些指征可能产生短期到长期的影响，最终形成多种外部表型特征，目前也可以通过各类移动医疗和健康设备加以记录，成为医疗及体检机构的临床检测数据。人体作为一个非线性复杂系统，其慢性疾病，特别是代谢综合征的发展，也是一个长期过程；而最终在临床上被诊断为代谢综合征，已经是这个慢性发展过程的结果。而我们平时所能够采取的健康和疾病预防手段，通常也只是针对于普适人群的平均推荐，不一定适合于每一个人。如果我们能够在早期对人体各类从内部到外部的因素进行测量、分析，可以构建一个早期的趋势预测模型，并且可以明晰这个复杂系统的具体问题所在，完成对每个人的个性化预防干预。
+%如果给你一个人类群体(~100人)， 每个人具有较完整的下述生物医学数据：
+%1．	临床检测数据
+%2．	基因组数据
+%3．	表观基因组数据
+%4．	转录组数据
+%5．	蛋白质组数据
+%6．	代谢组数据
+%请你基于以上数据完成以下任务：
+%a)	请参考NCBI, EBI, DDBJ等公开数据库中的生物分子相互作用和基因通路信息，构建人类生命量化的动态模型；
+%b)	结合临床检测数据，哪些因素(数据特征或相互作用网络)是代谢综合症（一种临床诊断结论）的关键通路；
+%c)	若给定一个新的人类群体数据集（~10人），包含了每个个体的基因组、表观基因组、转录组、蛋白质组和（或）代谢组的部分测量，请问这些人有多大的代谢综合症风险？造成他们的代谢综合症风险的主要因素分别是什么？
+
+%附录1、相关背景介绍：
+%代谢综合征（metabolic syndrome）是指多种代谢成分异常聚集的病理状态，是一组复杂的代谢紊乱症候群。引起代谢综合征的危险因子主要包括高血压、血脂异常、糖尿病、肥胖以及高尿酸与凝血因子不正常等。它是导致心脑血管疾病的危险因素，其集簇发生可能与胰岛素抵抗有关。（参见互动百科http://www.baike.com/wiki/代谢综合征）。随着近几十年来物质资源的逐渐丰富，我国代谢综合征及后续心血管疾病及糖尿病的发展迅速蔓延，成为人民群众健康的主要威胁之一。目前，尽管代谢综合征及其后续关联疾病的发病机制尚未阐明，但已经表明和遗传、环境、心理、生活方式、及年龄有关，且是一个长期慢性发展的结果。
+
+\usepackage[utf8]{inputenc}  %解释用的编码
+\usepackage{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{CJK}
+\usepackage[pdftex]{graphicx}
+\usepackage{lastpage}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{longtable}
+\geometry{left=2.5cm,right=2.5cm,top=2.3cm,bottom=2.3cm}
+\linespread{1.2}
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\begin{titlepage}
+\begin{center}
+\Huge{北航2016国赛选拔题目\\}
+\vspace{10cm}
+\large{作者:\\
+孙镜涵\\
+石伟\\
+刘嘉晖\\}
+\end{center}
+%\maketitle
+%\thispagestyle{empty} % 当前页不显示页码
+\end{titlepage}
+
+\newpage
+\begin{center}
+{\Large}\textbf{摘要\\}
+\end{center}
+%从此处输入摘要
+\begin{flushleft}
+
+\end{flushleft}
+
+
+\newpage
+\renewcommand\contentsname{目录}
+\tableofcontents
+
+\newpage
+\section{问题介绍}
+\subsection{问题重述}
+\begin{quotation}
+
+\end{quotation}
+\subsection{背景介绍}
+
+\subsection{建模思路}
+
+
+\newpage
+\section{模型假设}
+
+\section{模型建立}
+
+\subsection{模型一}
+
+\subsubsection{模型一结果}
+
+\subsection{模型二}
+
+\subsubsection{模型二结果}
+
+
+\subsection{模型三}
+
+\subsubsection{模型三结果}
+
+\section{模型评价}
+\subsection{模型二评价}
+\begin{flushleft}
+\qquad
+\end{flushleft}
+\subsection{模型三评价(灵敏度分析)}
+\begin{flushleft}
+\qquad
+\end{flushleft}
+\newpage
+\begin{center}
+\renewcommand\refname{参考文献}
+\begin{thebibliography}{99}
+\bibitem{1}
+房林洲.\textsl{汽车轮胎的识别与合理使用}
+河北工业大学2010级本科汽车运用基础论文,河北,2011.
+
+\end{thebibliography}
+\end{center}
+\end{CJK*}
+\end{document}
